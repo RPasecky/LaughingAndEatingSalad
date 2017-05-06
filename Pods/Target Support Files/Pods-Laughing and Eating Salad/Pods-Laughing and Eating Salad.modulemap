@@ -1,0 +1,6 @@
+framework module Pods_Laughing_and_Eating_Salad {
+  umbrella header "Pods-Laughing and Eating Salad-umbrella.h"
+
+  export *
+  module * { export * }
+}

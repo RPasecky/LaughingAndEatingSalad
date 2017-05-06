@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0D6C498D783C510E469618B /* Pods_Laughing_and_Eating_Salad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487FA710AAB8C1163DD1AE4C /* Pods_Laughing_and_Eating_Salad.framework */; };
+		E30F38FC1E7A63E900843D3C /* SobrCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30F38FA1E7A606800843D3C /* SobrCameraView.swift */; };
+		E35531C11E7A87380049F055 /* saladView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35531C01E7A87380049F055 /* saladView2.swift */; };
+		E35531C31E7A87480049F055 /* saladView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35531C21E7A87480049F055 /* saladView2.xib */; };
+		E35531C51E7A87CE0049F055 /* saladView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35531C41E7A87CE0049F055 /* saladView3.xib */; };
+		E35531C71E7A87DE0049F055 /* saladView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35531C61E7A87DE0049F055 /* saladView3.swift */; };
+		E3BCE7B01E7A2F9D0078DE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCE7AF1E7A2F9D0078DE89 /* AppDelegate.swift */; };
+		E3BCE7B51E7A2F9D0078DE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BCE7B31E7A2F9D0078DE89 /* Main.storyboard */; };
+		E3BCE7B81E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3BCE7B61E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodeld */; };
+		E3BCE7BA1E7A2F9D0078DE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BCE7B91E7A2F9D0078DE89 /* Assets.xcassets */; };
+		E3BCE7BD1E7A2F9D0078DE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BCE7BB1E7A2F9D0078DE89 /* LaunchScreen.storyboard */; };
+		E3BCE7C61E7A307D0078DE89 /* customPhotoPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3BCE7C51E7A307D0078DE89 /* customPhotoPicker.xib */; };
+		E3BCE7C81E7A32AB0078DE89 /* saladView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3BCE7C71E7A32AB0078DE89 /* saladView1.xib */; };
+		E3BCE7CA1E7A35400078DE89 /* saladView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCE7C91E7A35400078DE89 /* saladView1.swift */; };
+		E3BCE7CC1E7A35E50078DE89 /* saladController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCE7CB1E7A35E50078DE89 /* saladController.swift */; };
+		E3BCE7CE1E7A3FD60078DE89 /* customPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCE7CD1E7A3FD60078DE89 /* customPhotoPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487FA710AAB8C1163DD1AE4C /* Pods_Laughing_and_Eating_Salad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Laughing_and_Eating_Salad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF732419294B570F76D5B55 /* Pods-Laughing and Eating Salad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laughing and Eating Salad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Laughing and Eating Salad/Pods-Laughing and Eating Salad.debug.xcconfig"; sourceTree = "<group>"; };
+		AD999B89FE8B55EDAC10FE9B /* Pods-Laughing and Eating Salad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laughing and Eating Salad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Laughing and Eating Salad/Pods-Laughing and Eating Salad.release.xcconfig"; sourceTree = "<group>"; };
+		E30F38FA1E7A606800843D3C /* SobrCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobrCameraView.swift; sourceTree = "<group>"; };
+		E35531C01E7A87380049F055 /* saladView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saladView2.swift; sourceTree = "<group>"; };
+		E35531C21E7A87480049F055 /* saladView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = saladView2.xib; sourceTree = "<group>"; };
+		E35531C41E7A87CE0049F055 /* saladView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = saladView3.xib; sourceTree = "<group>"; };
+		E35531C61E7A87DE0049F055 /* saladView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saladView3.swift; sourceTree = "<group>"; };
+		E3BCE7AC1E7A2F9D0078DE89 /* Laughing and Eating Salad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laughing and Eating Salad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BCE7AF1E7A2F9D0078DE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3BCE7B41E7A2F9D0078DE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3BCE7B71E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Laughing_and_Eating_Salad.xcdatamodel; sourceTree = "<group>"; };
+		E3BCE7B91E7A2F9D0078DE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3BCE7BC1E7A2F9D0078DE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3BCE7BE1E7A2F9D0078DE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BCE7C51E7A307D0078DE89 /* customPhotoPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customPhotoPicker.xib; sourceTree = "<group>"; };
+		E3BCE7C71E7A32AB0078DE89 /* saladView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = saladView1.xib; sourceTree = "<group>"; };
+		E3BCE7C91E7A35400078DE89 /* saladView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saladView1.swift; sourceTree = "<group>"; };
+		E3BCE7CB1E7A35E50078DE89 /* saladController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saladController.swift; sourceTree = "<group>"; };
+		E3BCE7CD1E7A3FD60078DE89 /* customPhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customPhotoPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3BCE7A91E7A2F9D0078DE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D6C498D783C510E469618B /* Pods_Laughing_and_Eating_Salad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31CCB81EFD3D23848BA9BB75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FF732419294B570F76D5B55 /* Pods-Laughing and Eating Salad.debug.xcconfig */,
+				AD999B89FE8B55EDAC10FE9B /* Pods-Laughing and Eating Salad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3BCE7A31E7A2F9D0078DE89 = {
+			isa = PBXGroup;
+			children = (
+				E3BCE7AE1E7A2F9D0078DE89 /* Laughing and Eating Salad */,
+				E3BCE7AD1E7A2F9D0078DE89 /* Products */,
+				31CCB81EFD3D23848BA9BB75 /* Pods */,
+				F761291F0F86DE0A2157837B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3BCE7AD1E7A2F9D0078DE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3BCE7AC1E7A2F9D0078DE89 /* Laughing and Eating Salad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3BCE7AE1E7A2F9D0078DE89 /* Laughing and Eating Salad */ = {
+			isa = PBXGroup;
+			children = (
+				E3BCE7AF1E7A2F9D0078DE89 /* AppDelegate.swift */,
+				E3BCE7B31E7A2F9D0078DE89 /* Main.storyboard */,
+				E3BCE7C41E7A306A0078DE89 /* Views */,
+				E3BCE7B91E7A2F9D0078DE89 /* Assets.xcassets */,
+				E3BCE7BB1E7A2F9D0078DE89 /* LaunchScreen.storyboard */,
+				E3BCE7BE1E7A2F9D0078DE89 /* Info.plist */,
+				E3BCE7B61E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodeld */,
+			);
+			path = "Laughing and Eating Salad";
+			sourceTree = "<group>";
+		};
+		E3BCE7C41E7A306A0078DE89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3BCE7CB1E7A35E50078DE89 /* saladController.swift */,
+				E3BCE7C51E7A307D0078DE89 /* customPhotoPicker.xib */,
+				E3BCE7CD1E7A3FD60078DE89 /* customPhotoPicker.swift */,
+				E3BCE7C71E7A32AB0078DE89 /* saladView1.xib */,
+				E3BCE7C91E7A35400078DE89 /* saladView1.swift */,
+				E35531C21E7A87480049F055 /* saladView2.xib */,
+				E35531C01E7A87380049F055 /* saladView2.swift */,
+				E35531C41E7A87CE0049F055 /* saladView3.xib */,
+				E35531C61E7A87DE0049F055 /* saladView3.swift */,
+				E30F38FA1E7A606800843D3C /* SobrCameraView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F761291F0F86DE0A2157837B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487FA710AAB8C1163DD1AE4C /* Pods_Laughing_and_Eating_Salad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3BCE7AB1E7A2F9D0078DE89 /* Laughing and Eating Salad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3BCE7C11E7A2F9D0078DE89 /* Build configuration list for PBXNativeTarget "Laughing and Eating Salad" */;
+			buildPhases = (
+				F9B000132CAD0222E87FB038 /* [CP] Check Pods Manifest.lock */,
+				E3BCE7A81E7A2F9D0078DE89 /* Sources */,
+				E3BCE7A91E7A2F9D0078DE89 /* Frameworks */,
+				E3BCE7AA1E7A2F9D0078DE89 /* Resources */,
+				1F670A05B5E9CD5CFBB81EA3 /* [CP] Embed Pods Frameworks */,
+				0E2660881496B181E635BB10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Laughing and Eating Salad";
+			productName = "Laughing and Eating Salad";
+			productReference = E3BCE7AC1E7A2F9D0078DE89 /* Laughing and Eating Salad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3BCE7A41E7A2F9D0078DE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ryan Pasecky";
+				TargetAttributes = {
+					E3BCE7AB1E7A2F9D0078DE89 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q69A459835;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E3BCE7A71E7A2F9D0078DE89 /* Build configuration list for PBXProject "Laughing and Eating Salad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3BCE7A31E7A2F9D0078DE89;
+			productRefGroup = E3BCE7AD1E7A2F9D0078DE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3BCE7AB1E7A2F9D0078DE89 /* Laughing and Eating Salad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3BCE7AA1E7A2F9D0078DE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35531C51E7A87CE0049F055 /* saladView3.xib in Resources */,
+				E3BCE7C81E7A32AB0078DE89 /* saladView1.xib in Resources */,
+				E3BCE7BD1E7A2F9D0078DE89 /* LaunchScreen.storyboard in Resources */,
+				E3BCE7C61E7A307D0078DE89 /* customPhotoPicker.xib in Resources */,
+				E3BCE7BA1E7A2F9D0078DE89 /* Assets.xcassets in Resources */,
+				E3BCE7B51E7A2F9D0078DE89 /* Main.storyboard in Resources */,
+				E35531C31E7A87480049F055 /* saladView2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2660881496B181E635BB10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Laughing and Eating Salad/Pods-Laughing and Eating Salad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F670A05B5E9CD5CFBB81EA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Laughing and Eating Salad/Pods-Laughing and Eating Salad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B000132CAD0222E87FB038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3BCE7A81E7A2F9D0078DE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35531C11E7A87380049F055 /* saladView2.swift in Sources */,
+				E3BCE7B81E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodeld in Sources */,
+				E3BCE7CC1E7A35E50078DE89 /* saladController.swift in Sources */,
+				E3BCE7CE1E7A3FD60078DE89 /* customPhotoPicker.swift in Sources */,
+				E30F38FC1E7A63E900843D3C /* SobrCameraView.swift in Sources */,
+				E3BCE7CA1E7A35400078DE89 /* saladView1.swift in Sources */,
+				E35531C71E7A87DE0049F055 /* saladView3.swift in Sources */,
+				E3BCE7B01E7A2F9D0078DE89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3BCE7B31E7A2F9D0078DE89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3BCE7B41E7A2F9D0078DE89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3BCE7BB1E7A2F9D0078DE89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3BCE7BC1E7A2F9D0078DE89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3BCE7BF1E7A2F9D0078DE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3BCE7C01E7A2F9D0078DE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3BCE7C21E7A2F9D0078DE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF732419294B570F76D5B55 /* Pods-Laughing and Eating Salad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q69A459835;
+				INFOPLIST_FILE = "Laughing and Eating Salad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wegwerfian.Laughing-and-Eating-Salad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E3BCE7C31E7A2F9D0078DE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD999B89FE8B55EDAC10FE9B /* Pods-Laughing and Eating Salad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q69A459835;
+				INFOPLIST_FILE = "Laughing and Eating Salad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wegwerfian.Laughing-and-Eating-Salad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3BCE7A71E7A2F9D0078DE89 /* Build configuration list for PBXProject "Laughing and Eating Salad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BCE7BF1E7A2F9D0078DE89 /* Debug */,
+				E3BCE7C01E7A2F9D0078DE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3BCE7C11E7A2F9D0078DE89 /* Build configuration list for PBXNativeTarget "Laughing and Eating Salad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BCE7C21E7A2F9D0078DE89 /* Debug */,
+				E3BCE7C31E7A2F9D0078DE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3BCE7B61E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3BCE7B71E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodel */,
+			);
+			currentVersion = E3BCE7B71E7A2F9D0078DE89 /* Laughing_and_Eating_Salad.xcdatamodel */;
+			path = Laughing_and_Eating_Salad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3BCE7A41E7A2F9D0078DE89 /* Project object */;
+}
